@@ -1,0 +1,21 @@
+# train parameters
+dataset: 'yelp'
+seed: 20
+epoch: 1000
+early_stop: 50
+lr: 0.1
+weight_decay: 0.00005
+cuda: 1
+log: True
+data_path: '../data/'
+result_path: '../result/'
+
+
+# model parameters
+gamma1: 1.2
+gamma2: 1.2
+intra_dim: 8
+n_class: 2
+head: 4
+n_layer: 2
+dropout: 0.1
