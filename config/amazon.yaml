@@ -2,7 +2,7 @@
 dataset: 'amazon'
 seed: 20
 epoch: 1000
-early_stop: 50
+early_stop: 200
 lr: 0.1
 weight_decay: 0.00005
 cuda: 2

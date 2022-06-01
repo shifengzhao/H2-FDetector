@@ -13,7 +13,7 @@ result_path: '../result/'
 
 # model parameters
 gamma1: 1.2
-gamma2: 1.2
+gamma2: 2
 intra_dim: 8
 n_class: 2
 head: 4
